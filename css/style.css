@@ -25,7 +25,8 @@ h2,
 h3,
 a {
 	color: #093a58;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Vidaloka', serif;
+	font-size: 1.4em;
 }
 
 h2,
@@ -88,12 +89,12 @@ figcaption {
 
 	.main-nav a {
 		font-size: 1em;
-		color: #3acec2;
+		color: #371167;
 		text-transform: uppercase;
 	}
 
 	.main-nav a:hover {
-		color: #093a58;
+		color: #988C0D;
 	}
 
 /* ---- Layout Containers ---- */

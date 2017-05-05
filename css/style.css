@@ -55,11 +55,10 @@ figure {
 
 figcaption {
 	font-size: .9em;
-	line-height: 1.5;
+	line-height: 0.8;
 	color: #fff;
 	padding: 1em;
 	background: rgba(19,43,102, .85);
-
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -132,6 +131,12 @@ figcaption {
 	margin-top: 30px;
 }
 
+.primary,
+.secondary,
+.tertiary {
+	margin-top: 50px;
+}
+
 /* ---- Page Elements ---- */
 
 .logo {
@@ -188,6 +193,11 @@ figcaption {
 	.primary,
 	.secondary {
 		width: 50%;
+		margin-top: 0;
+	}
+
+	.tertiary {
+		margin-top: 50px;
 	}
 
 	.main-nav {
@@ -227,6 +237,12 @@ figcaption {
 	.secondary,
 	.tertiary {
 		width: 30%;
+	}
+
+	.primary,
+	.secondary,
+	.tertiary {
+		margin-top: 0;
 	}
 
 }

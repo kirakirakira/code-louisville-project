@@ -101,6 +101,11 @@ figcaption {
 		color: #988C0D;
 	}
 
+input[type=text] {
+	display: block;
+	margin: 0 auto;
+}
+
 /* ---- Layout Containers ---- */
 
 .main-header {

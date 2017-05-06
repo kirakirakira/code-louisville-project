@@ -45,6 +45,10 @@ a {
 }
 
 img {
+	max-width: 120px;
+}
+
+.extra-img {
 	max-width: 100%;
 }
 
@@ -136,6 +140,19 @@ figcaption {
 .secondary,
 .tertiary {
 	margin-top: 50px;
+}
+
+.update-img {
+	float: left;
+	padding-right: 15px;
+}
+
+.update {
+	clear: both;
+}
+
+.update-text {
+	overflow: auto;
 }
 
 /* ---- Page Elements ---- */

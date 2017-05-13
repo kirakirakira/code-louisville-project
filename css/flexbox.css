@@ -25,6 +25,7 @@
 
     .update-content {
         align-items: center;
+        flex-wrap: wrap;
     }
 
 	.col {

@@ -66,7 +66,6 @@ figcaption {
 	background: rgba(19,43,102, .85);
 	position: absolute;
 	bottom: 0;
-	width: 100%;
 }
 
 /* =================================
@@ -160,6 +159,14 @@ input[type=text] {
 	overflow: auto;
 }
 
+figcaption {
+	max-width: 310px;
+}
+
+.extra-img {
+	max-width: 310px;
+}
+
 /* ---- Page Elements ---- */
 
 .logo {
@@ -186,6 +193,11 @@ input[type=text] {
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	figcaption {
+		width: 100%;
+	}
+
 }
 
 @media (min-width: 1025px) {

@@ -127,7 +127,6 @@ input[type=text] {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 3.2em 0;
-	margin-bottom: 60px;
 	border: 1px solid #575757;
 }
 
@@ -177,100 +176,23 @@ input[type=text] {
 	color: white;
 }
 
-.icon-location {
-	width: 150px;
-	position: absolute;
-	top: -15px;
-	right: -15px;
-	border-radius: 30%;
-}
-
-section:not(:first-child) {
-	margin-top: 30px;
-}
-
 /* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
-
-	body {
-		padding-top: 68px;
-	}
-
-	.main-header {
-		position: fixed;
-		background: #fff;
-		box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-		width: 100%;
-		top: 0;
-		z-index: 1000;
-	}
-
-	.container {
+	.main-header,
+	.row {
 		width: 90%;
 		margin: 0 auto;
 	}
-
-	.name,
-	.col {
-		float: left;
-	}
-
-	.primary,
-	.secondary {
-		width: 50%;
-		margin-top: 0;
-	}
-
-	.tertiary {
-		margin-top: 50px;
-	}
-
-	.main-nav {
-		float: right;
-	}
-
-	.main-nav li {
-		display: inline-block;
-		margin-left: 15px;
-	}
-
-	.tagline {
-		font-size: 1.4em;
-	}
-
-	/* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
 }
 
 @media (min-width: 1025px) {
 
-	.container {
+	.main-header,
+	.row {
 		width: 80%;
 		max-width: 1150px;
 	}
-
-	.primary {
-		width: 40%;
-	}
-
-	.secondary,
-	.tertiary {
-		width: 30%;
-	}
-
-	.primary,
-	.secondary,
-	.tertiary {
-		margin-top: 0;
-	}
-
 }

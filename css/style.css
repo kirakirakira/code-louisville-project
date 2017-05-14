@@ -13,7 +13,7 @@ html, body {
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
-	color: #3a3a3a;
+	color: #211F21;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 
 h2,
 h3 {
-	color: #093a58;
+	color: #014983;
 	font-family: 'Vidaloka', serif;
 }
 
@@ -37,13 +37,13 @@ h3 {
 
 .name a,
 .main-nav a {
-	color: #093a58;
+	color: #014983;
 	font-family: 'Vidaloka', serif;
 	font-size: 1.4em;
 }
 
 .inventory a {
-	color: #3a3a3a;
+	color: #211F21;
 	font-family: fantasy;
 	margin-right: 0.3em;
 }
@@ -86,7 +86,7 @@ figcaption {
 	line-height: 0.8;
 	color: #fff;
 	padding: 1em;
-	background: rgba(19,43,102, .85);
+	background: #014983;
 	position: absolute;
 	bottom: 0;
 }
@@ -115,12 +115,12 @@ figcaption {
 
 	.main-nav a {
 		font-size: 1em;
-		color: #371167;
+		color: #014983;
 		text-transform: uppercase;
 	}
 
 	.main-nav a:hover {
-		color: #988C0D;
+		color: #57AED1;
 	}
 
 input[type=text] {
@@ -142,9 +142,9 @@ input[type=text] {
 }
 
 .banner {
-	color: black;
+	color: #211F21;
 	background-image: url("reflection-pad-gaming-gamepad.jpg");
-	background-color: rgba(19,43,102, .85);
+	background-color: #017EB3;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -158,9 +158,10 @@ input[type=text] {
 }
 
 .main-footer {
-	background: #d9e4ea;
+	background: #017EB3;
 	padding: 2em 0;
 	margin-top: 30px;
+	color: white;
 }
 
 .primary,
@@ -180,7 +181,8 @@ input[type=text] {
 
 .content,
 .new-content,
-.main-footer {
+.main-footer,
+h3 {
 	clear: both;
 }
 
@@ -230,8 +232,6 @@ figcaption {
 	figcaption {
 		width: 100%;
 	}
-
-
 
 }
 

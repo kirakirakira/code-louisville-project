@@ -22,11 +22,27 @@ p {
 }
 
 h2,
-h3,
-a {
+h3 {
 	color: #093a58;
 	font-family: 'Vidaloka', serif;
 	font-size: 1.4em;
+}
+
+.name a,
+.main-nav a {
+	color: #093a58;
+	font-family: 'Vidaloka', serif;
+	font-size: 1.4em;
+}
+
+.inventory a {
+	color: #3a3a3a;
+	font-family: fantasy;
+	margin-right: 0.3em;
+}
+
+.inventory {
+	line-height: 1.6;
 }
 
 h2,

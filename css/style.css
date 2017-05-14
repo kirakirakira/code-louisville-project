@@ -25,7 +25,14 @@ h2,
 h3 {
 	color: #093a58;
 	font-family: 'Vidaloka', serif;
+}
+
+h2 {
 	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1em;
 }
 
 .name a,
@@ -137,7 +144,7 @@ input[type=text] {
 .banner {
 	color: black;
 	background-image: url("reflection-pad-gaming-gamepad.jpg");
-	background-color: #3acec2;
+	background-color: rgba(19,43,102, .85);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

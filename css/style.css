@@ -178,6 +178,12 @@ input[type=text] {
 	padding-right: 15px;
 }
 
+.content,
+.new-content,
+.main-footer {
+	clear: both;
+}
+
 .update-text {
 	overflow: auto;
 }

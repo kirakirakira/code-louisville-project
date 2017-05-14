@@ -18,7 +18,7 @@ body {
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
+	margin-bottom: 1em;
 }
 
 h2,
@@ -117,6 +117,7 @@ figcaption {
 		font-size: 1em;
 		color: #014983;
 		text-transform: uppercase;
+		white-space: nowrap;
 	}
 
 	.main-nav a:hover {
@@ -127,6 +128,7 @@ input[type=text] {
 	display: block;
 	margin: 0 auto;
 	font-size: 1em;
+	width: 175px;
 }
 
 /* ---- Layout Containers ---- */
@@ -196,6 +198,12 @@ figcaption {
 
 .extra-img {
 	max-width: 310px;
+}
+
+.update-content {
+	border: 1px solid black;
+	margin-bottom: 5px;
+	padding: 5px 5px 0 5px;
 }
 
 /* ---- Page Elements ---- */

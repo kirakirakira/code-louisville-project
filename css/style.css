@@ -141,8 +141,7 @@ input[type=text] {
 }
 
 .primary,
-.secondary,
-.tertiary {
+.secondary {
 	margin-top: 50px;
 }
 
@@ -183,6 +182,10 @@ figcaption {
 	color: white;
 }
 
+.content {
+	margin-bottom: 40px;
+}
+
 /* =================================
   Media Queries
 ==================================== */
@@ -198,6 +201,8 @@ figcaption {
 		width: 100%;
 	}
 
+
+
 }
 
 @media (min-width: 1025px) {
@@ -206,5 +211,9 @@ figcaption {
 	.row {
 		width: 80%;
 		max-width: 1150px;
+	}
+
+	.tertiary {
+		margin-top: 50px;
 	}
 }

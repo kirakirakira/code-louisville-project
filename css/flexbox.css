@@ -22,7 +22,8 @@
         flex-direction: column;
     }
 
-    .update-content {
+    .update-content,
+    .new-content {
         align-items: center;
         flex-wrap: wrap;
     }

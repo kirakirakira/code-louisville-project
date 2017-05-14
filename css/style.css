@@ -173,8 +173,9 @@ input[type=text] {
 	padding-right: 15px;
 }
 
-.update {
-	clear: both;
+.feat-img {
+	float: left;
+	padding-right: 15px;
 }
 
 .update-text {

@@ -124,7 +124,7 @@ figcaption {
 		color: #57AED1;
 	}
 
-input[type=text] {
+.search {
 	display: block;
 	margin: 0 auto;
 	font-size: 1em;

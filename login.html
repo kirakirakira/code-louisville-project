@@ -7,8 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- <link rel="stylesheet" href="css/flexbox.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
     <link rel="stylesheet" href="css/login.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
@@ -31,41 +31,52 @@
 		<span class="tagline">Connect with friends and find new games.</span>
 	</div><!--/.banner-->
 
-    <h1>Sign Up!</h1>
-	<form action="#" method="post">
-		<p>
-			<label for="username">Username</label>
-			<input id="username" name="username" type="text">
-		</p>
-		<p>
-			<label for="password">Password</label>
-			<input id="password" name="password" type="password">
-			<span>Enter a password longer than 8 characters</span>
-		</p>
-		<p>
-			<label for="confirm_password">Confirm Password</label>
-			<input id="confirm_password" name="confirm_password" type="password">
-			<span>Please confirm your password</span>
-		</p>
-		<p>
-			<input type="submit" value="SUBMIT" id="submit">
-		</p>
-	</form>
+	<div class="form">
 
-    <h1>Already registered? Log in!</h1>
-    <form action="#" method="post">
-        <p>
-            <label for="username">Username</label>
-            <input id="username" name="username" type="text">
-        </p>
-        <p>
-            <label for="password">Password</label>
-            <input id="password" name="password" type="password">
-        </p>
-        <p>
-            <input type="submit" value="LOG IN" id="submit">
-        </p>
-    </form>
+		<h1>Sign Up!</h1>
+		<form action="#" method="post">
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name="password" type="password">
+				<span class="reminder">Enter a password longer than 8 characters</span>
+			</p>
+			<p>
+				<label for="confirm_password">Confirm Password</label>
+				<input id="confirm_password" name="confirm_password" type="password">
+				<span class="reminder">Please confirm your password</span>
+			</p>
+			<p>
+				<input type="submit" value="SUBMIT" id="submit">
+			</p>
+		</form>
+	</div>
+
+	<div class="form">
+
+	    <h1>Already registered? Log in!</h1>
+	    <form action="#" method="post">
+	        <p>
+	            <label for="username">Username</label>
+	            <input id="username" name="username" type="text">
+	        </p>
+	        <p>
+	            <label for="password">Password</label>
+	            <input id="password" name="password" type="password">
+	        </p>
+	        <p>
+	            <input type="submit" value="LOG IN" id="submit">
+	        </p>
+	    </form>
+
+	</div>
+
+	<footer class="main-footer">
+		<span>&copy;2017 Kira Hartlage</span>
+	</footer>
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>

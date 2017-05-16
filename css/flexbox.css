@@ -7,26 +7,37 @@
 	.main-header,
 	.main-nav,
 	.row,
-    .content,
-    .update-content {
+  .content,
+  .update-content,
+	.forms,
+	.fm {
 		display: flex;
+	}
+
+	.forms {
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.fm {
+		flex-direction: column;
 	}
 
 	.main-header {
 		flex-direction: column;
 		align-items: center;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 	}
 
-    .content {
-        flex-direction: column;
-    }
+  .content {
+    flex-direction: column;
+  }
 
-    .update-content,
-    .new-content {
-        align-items: center;
-        flex-wrap: wrap;
-    }
+  .update-content,
+  .new-content {
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
 	.col {
 		flex: 1 50%;
@@ -38,6 +49,10 @@
 
 	.secondary {
 		order: -1;
+	}
+
+	.btn {
+		align-self: center;
 	}
 
 }

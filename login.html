@@ -7,20 +7,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
-    <link rel="stylesheet" href="css/login.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
 
 	<header class="main-header">
-			<h1 class="name"><a href="#">Video Game Plays</a></h1>
+			<h1 class="name"><a href="index.html">Video Game Plays</a></h1>
 			<ul class="main-nav">
-				<li><a href="#">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#">My Games</a></li>
 				<li><a href="#">Browse</a></li>
 				<li><a href="#">Community</a></li>
-				<li><input type="text" name="search" placeholder="Search..."></li>
+				<li><input type="text" name="search" placeholder="Search..." class="search"></li>
 				<li><a href="login.html">Sign Up/Log In</a></li>
 			</ul>
 		</div>
@@ -31,47 +31,48 @@
 		<span class="tagline">Connect with friends and find new games.</span>
 	</div><!--/.banner-->
 
-	<div class="form">
+	<div class="forms">
+		<div class="form">
+			<h1 class="form-title">Sign Up!</h1>
+			<form action="#" method="post" class="fm">
+				<p>
+					<label for="username">Username</label>
+					<input id="username" name="username" type="text">
+				</p>
+				<p>
+					<label for="password">Password</label>
+					<input id="password" name="password" type="password">
+					<span class="reminder">Enter a password longer than 8 characters</span>
+				</p>
+				<p>
+					<label for="confirm_password">Confirm Password</label>
+					<input id="confirm_password" name="confirm_password" type="password">
+					<span class="reminder">Please confirm your password</span>
+				</p>
+				<p class="btn">
+					<input type="submit" value="SUBMIT" id="submit">
+				</p>
+			</form>
+		</div>
 
-		<h1>Sign Up!</h1>
-		<form action="#" method="post">
-			<p>
-				<label for="username">Username</label>
-				<input id="username" name="username" type="text">
-			</p>
-			<p>
-				<label for="password">Password</label>
-				<input id="password" name="password" type="password">
-				<span class="reminder">Enter a password longer than 8 characters</span>
-			</p>
-			<p>
-				<label for="confirm_password">Confirm Password</label>
-				<input id="confirm_password" name="confirm_password" type="password">
-				<span class="reminder">Please confirm your password</span>
-			</p>
-			<p>
-				<input type="submit" value="SUBMIT" id="submit">
-			</p>
-		</form>
-	</div>
+		<div class="form">
 
-	<div class="form">
-
-	    <h1>Already registered? Log in!</h1>
-	    <form action="#" method="post">
-	        <p>
-	            <label for="username">Username</label>
-	            <input id="username" name="username" type="text">
-	        </p>
-	        <p>
-	            <label for="password">Password</label>
-	            <input id="password" name="password" type="password">
-	        </p>
-	        <p>
-	            <input type="submit" value="LOG IN" id="submit">
-	        </p>
+	    <h1 class="form-title">Already registered? Log in!</h1>
+	    <form action="#" method="post" class="fm">
+        <p>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+        </p>
+        <p class="btn">
+            <input type="submit" value="LOG IN" id="submit">
+        </p>
 	    </form>
 
+		</div>
 	</div>
 
 	<footer class="main-footer">

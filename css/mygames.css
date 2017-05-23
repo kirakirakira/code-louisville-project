@@ -3,3 +3,14 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+
+caption {
+  color: #014983;
+	font-family: 'Vidaloka', serif;
+  font-size: 1.8em;
+}
+
+tr:nth-child(even) {
+  color: white;
+  background-color: rgba(1, 126, 179, 0.7);
+}

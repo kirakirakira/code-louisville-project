@@ -181,6 +181,12 @@ figcaption {
 	padding-right: 15px;
 }
 
+.want-to-play-img {
+	max-width: 100%;
+	float: left;
+	padding-right: 15px;
+}
+
 .content,
 .new-content,
 .main-footer,
@@ -193,10 +199,6 @@ h3 {
 }
 
 figcaption {
-	max-width: 310px;
-}
-
-.extra-img {
 	max-width: 310px;
 }
 

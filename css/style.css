@@ -24,7 +24,8 @@ p {
 h2,
 h3 {
 	color: #014983;
-	font-family: 'Vidaloka', serif;
+	/*font-family: 'Vidaloka', serif;*/
+	font-family: 'Source Code Pro', monospace;
 }
 
 h2 {
@@ -38,7 +39,8 @@ h3 {
 .name a,
 .main-nav a {
 	color: #014983;
-	font-family: 'Vidaloka', serif;
+	/*font-family: 'Vidaloka', serif;*/
+	font-family: 'Source Code Pro', monospace;
 	font-size: 1.4em;
 }
 
@@ -203,7 +205,9 @@ figcaption {
 }
 
 .update-content {
-	border: 1px solid black;
+	border: 2px solid rgba(1, 126, 179, 0.3);
+	box-shadow: 2px 2px 1px -1px rgba(1, 126, 179, 0.15);
+	border-radius: 5%;
 	margin-bottom: 5px;
 	padding: 5px 5px 0 5px;
 }

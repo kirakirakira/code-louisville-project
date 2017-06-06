@@ -73,6 +73,10 @@ a h3:hover {
 	color: #57AED1;
 }
 
+a h3 {
+	font-size: 1.1em;
+}
+
 img {
 	max-width: 120px;
 }

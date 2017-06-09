@@ -60,6 +60,10 @@ h4 {
 	margin-top: 0;
 }
 
+h3 {
+	margin-bottom: 0;
+}
+
 h4 {
 	margin-bottom: .4em;
 }
@@ -67,14 +71,21 @@ h4 {
 a {
 	text-decoration: none;
 	font-weight: bold;
+	color: #017EB3;
 }
 
-a h3:hover {
+a h3:hover,
+a:hover {
 	color: #57AED1;
 }
 
 a h3 {
 	font-size: 1.1em;
+}
+
+.update-text a,
+.new-content a {
+	font-weight: normal;
 }
 
 img {
@@ -92,13 +103,17 @@ figure {
 }
 
 figcaption {
-	font-size: .9em;
+	font-size: .8em;
 	line-height: 0.8;
 	color: #fff;
-	padding: 1em;
+	padding: 0.6em;
 	background: #014983;
 	position: absolute;
 	bottom: 0;
+}
+
+figure img {
+	width: 100%;
 }
 
 /* =================================
@@ -191,11 +206,11 @@ figcaption {
 	padding-right: 15px;
 }
 
-.want-to-play-img {
+/*.want-to-play-img {
 	max-width: 100%;
 	float: left;
 	padding-right: 15px;
-}
+}*/
 
 .content,
 .new-content,

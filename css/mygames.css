@@ -1,7 +1,17 @@
 td, th {
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   text-align: left;
   padding: 8px;
+}
+
+th {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+}
+
+th:not(:first-child) {
+  border-left: 1px solid #ddd;
 }
 
 caption {
@@ -10,7 +20,7 @@ caption {
   font-size: 1.8em;
 }
 
-tr:nth-child(even) {
+.game-history tr:nth-child(even) {
   color: white;
   background-color: rgba(1, 126, 179, 0.7);
 }

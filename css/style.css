@@ -255,6 +255,16 @@ figcaption {
 	margin-bottom: 40px;
 }
 
+td {
+	padding: 6px;
+	text-align: left;
+}
+
+.num-games {
+	text-align: right;
+	font-weight: bold;
+}
+
 /* =================================
   Media Queries
 ==================================== */

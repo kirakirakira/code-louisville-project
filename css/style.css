@@ -75,8 +75,10 @@ a {
 }
 
 a h3:hover,
-a:hover {
-	color: #57AED1;
+a:hover,
+a h3:focus,
+a:focus {
+	color: #b33601;
 }
 
 a h3 {
@@ -145,8 +147,9 @@ figure img {
 		white-space: nowrap;
 	}
 
-	.main-nav a:hover {
-		color: #57AED1;
+	.main-nav a:hover,
+	.main-nav a:focus {
+		color: #b33601;
 	}
 
 .search {

@@ -41,3 +41,7 @@ label {
 label {
   color: white;
 }
+
+form input:focus {
+  background-color: #fd9037;
+}

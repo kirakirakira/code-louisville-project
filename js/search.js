@@ -25,7 +25,7 @@ $('document').ready(function(){
               $.each(data.items,function(i,photo) {
                 photoHTML += '<li class="photograph">';
                 photoHTML += '<a href="' + photo.link + '" class="image">';
-                photoHTML += '<h2>' + photo.title + '</h2>';
+                // photoHTML += '<h2>' + photo.title + '</h2>';
                 photoHTML += '<img src="' + photo.media.m + '"></a></li>';
               }); // end each
             } else {

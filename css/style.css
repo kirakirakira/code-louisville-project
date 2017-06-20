@@ -222,6 +222,10 @@ h3 {
 	clear: both;
 }
 
+.new-content {
+	padding-top: 5px;
+}
+
 .update-text {
 	overflow: auto;
 }

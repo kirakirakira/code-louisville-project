@@ -35,9 +35,28 @@ caption {
   margin-top: 0;
 }
 
+.secondary {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondary section {
+  flex-basis: 100%;
+  margin: 5px;
+}
+
 /* =================================
   Media Queries
 ==================================== */
+
+@media (min-width: 769px) {
+  .secondary {
+    flex-direction: column;
+  }
+
+  .secondary section {
+    flex-basis: auto;
+  }
 
 @media (min-width: 1042px) {
 	.primary {

@@ -50,6 +50,18 @@ caption {
 ==================================== */
 
 @media (min-width: 769px) {
+  /*.secondary {
+    flex-direction: column;
+  }
+
+  .secondary section {
+    flex-basis: auto;
+  }*/
+
+@media (min-width: 1042px) {
+	.primary {
+		margin-top: 50px;
+	}
   .secondary {
     flex-direction: column;
   }
@@ -58,8 +70,4 @@ caption {
     flex-basis: auto;
   }
 
-@media (min-width: 1042px) {
-	.primary {
-		margin-top: 50px;
-	}
 }

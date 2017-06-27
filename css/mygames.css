@@ -16,11 +16,31 @@ th:not(:first-child) {
 
 caption {
   color: #014983;
-	font-family: 'Vidaloka', serif;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 1.8em;
 }
 
 .game-history tr:nth-child(even) {
   color: white;
   background-color: rgba(1, 126, 179, 0.7);
+}
+
+.responsive-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.primary {
+  margin-top: 0;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 1042px) {
+	.primary {
+		margin-top: 50px;
+	}
 }

@@ -194,10 +194,10 @@ figure img {
 	color: white;
 }
 
-.primary,
+/*.primary,
 .secondary {
 	margin-top: 50px;
-}
+}*/
 
 .update-img {
 	float: left;
@@ -287,6 +287,11 @@ td {
 		width: 100%;
 	}
 
+	.primary,
+	.secondary {
+		margin-top: 50px;
+	}
+
 }
 
 @media (min-width: 1025px) {
@@ -295,6 +300,11 @@ td {
 	.row {
 		width: 80%;
 		max-width: 1150px;
+	}
+
+	.primary,
+	.secondary {
+		margin-top: 50px;
 	}
 
 	.tertiary {

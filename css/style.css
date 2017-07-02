@@ -118,6 +118,10 @@ figure img {
 	width: 100%;
 }
 
+.active {
+	border-bottom: 2px dashed #b33601;
+}
+
 /* =================================
   Base Layout Styles
 ==================================== */

@@ -1,11 +1,9 @@
 # code-louisville-project
-Project for Code Louisville
+# Project for Code Louisville
 
-This repo will contain my Code Louisville Project.
+## Concept: a video game version of goodreads.com
 
-Current concept: a video game version of goodreads.com
-
-Features:
+## Features:
 - provide recommendations to the user for games they would like to play next
 - log of games played, want to play, currently playing
 - follow friends' activity

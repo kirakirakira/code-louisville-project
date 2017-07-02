@@ -24,7 +24,6 @@ p {
 h2,
 h3 {
 	color: #014983;
-	/*font-family: 'Vidaloka', serif;*/
 	font-family: 'Source Code Pro', monospace;
 }
 
@@ -39,7 +38,6 @@ h3 {
 .name a,
 .main-nav a {
 	color: #014983;
-	/*font-family: 'Vidaloka', serif;*/
 	font-family: 'Source Code Pro', monospace;
 	font-size: 1.4em;
 }
@@ -129,7 +127,8 @@ figure img {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.25em;
+	font-size: 1.75em;
+	text-shadow: 1px 1px 1px #b33601;
 	margin: 0;
 }
 
@@ -137,24 +136,28 @@ figure img {
 	margin-top: 5px;
 }
 
-	.name a,
-	.main-nav a {
-		display: block;
-		text-align: center;
-		padding: 10px 15px;
-	}
+.name a,
+.main-nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+}
 
-	.main-nav a {
-		font-size: 1em;
-		color: #014983;
-		text-transform: uppercase;
-		white-space: nowrap;
-	}
+.main-nav a {
+	font-size: 1em;
+	color: #014983;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
 
-	.main-nav a:hover,
-	.main-nav a:focus {
-		color: #b33601;
-	}
+.main-nav a:hover,
+.main-nav a:focus {
+	color: #b33601;
+}
+
+.name a:hover {
+	text-shadow: 2px 2px 1px #014983;
+}
 
 .search {
 	display: block;
@@ -198,11 +201,6 @@ figure img {
 	color: white;
 }
 
-/*.primary,
-.secondary {
-	margin-top: 50px;
-}*/
-
 .update-img {
 	float: left;
 	padding-right: 15px;
@@ -213,11 +211,9 @@ figure img {
 	padding-right: 15px;
 }
 
-/*.want-to-play-img {
+.want-to-play-img {
 	max-width: 100%;
-	float: left;
-	padding-right: 15px;
-}*/
+}
 
 .content,
 .new-content,

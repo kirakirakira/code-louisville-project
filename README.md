@@ -9,3 +9,6 @@ Features:
 - rate games played
 - leave reviews for games played
 - browse games
+
+How to view:
+Download files and open index.html in your browser of choice :sparkles:

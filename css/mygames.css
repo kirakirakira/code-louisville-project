@@ -36,13 +36,11 @@ caption {
 }
 
 .secondary {
-  display: flex;
-  flex-direction: row;
+  display: none;
 }
 
-.secondary section {
-  flex-basis: 100%;
-  margin: 5px;
+table {
+  margin-top: 20px;
 }
 
 /* =================================
@@ -50,18 +48,25 @@ caption {
 ==================================== */
 
 @media (min-width: 769px) {
-  /*.secondary {
-    flex-direction: column;
+  .secondary {
+    display: flex;
+    flex-direction: row;
   }
 
   .secondary section {
-    flex-basis: auto;
-  }*/
+    flex-basis: 100%;
+    margin: 5px;
+  }
+
+  table {
+    margin-top: 0;
+  }
 
 @media (min-width: 1042px) {
 	.primary {
 		margin-top: 50px;
 	}
+
   .secondary {
     flex-direction: column;
   }
@@ -69,5 +74,4 @@ caption {
   .secondary section {
     flex-basis: auto;
   }
-
 }

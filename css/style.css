@@ -272,6 +272,10 @@ td {
 	font-weight: bold;
 }
 
+.game-title {
+  font-weight: bold;
+}
+
 /* =================================
   Media Queries
 ==================================== */
